@@ -1,0 +1,109 @@
+body {
+  color: #eee;
+  font-family: "Inter", "roboto", sans-serif;
+  font-weight: 600;
+
+  background-color: rgb(36, 39, 49);
+  display: flex;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+#infoMain {
+  border-radius: 20px;
+  box-shadow: 0px 0px 40px 15px #000a;
+
+  width: 90%;
+  height: 500px;
+
+  margin: 20px;
+  padding: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  overflow: hidden;
+  background-color: rgb(36, 39, 49);
+}
+
+.progressBar {
+  border-radius: 15px;
+  height: 30px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 20px;
+
+  overflow: hidden;
+  box-shadow: 0px 0px 20px 5px #0004;
+  background-image: linear-gradient(to right, #b0b2b5, #a3a5a8);
+}
+
+.progressBarInternal {
+  border-radius: 15px;
+  height: 100%;
+  width: 66.67%;
+
+  box-shadow: 0px 0px 20px 10px #000a;
+  background-image: linear-gradient(to right, #1a94ff, #0069c5);
+}
+
+#countdownBar {
+  margin-top: 0;
+}
+
+#countdownText {
+  padding-left: 20px;
+  justify-content: left;
+}
+
+.timeElement {
+  font-size: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#prelimResultsBarLabel {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#prelimResultsBarLabel > div {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+
+  font-size: 20px;
+}
+
+#prelimPublicGood > div {
+  flex-direction: row-reverse
+}
+
+.idCardSmall {
+  display: flex;
+  flex-direction: row;
+}
+
+.idCardSmall > span {
+    font-size: 15px;
+}
+
+#mysteryProfile {
+  width: 40px; height: 40px;
+  background-image: linear-gradient(to right, #b0b2b5, #a3a5a8);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  font-size: 30px;
+}
+
+#mysteryProfile > span {
+  padding-top: 3px;
+  margin: auto;
+
+}

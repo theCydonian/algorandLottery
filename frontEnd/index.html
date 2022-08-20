@@ -1,9 +1,46 @@
 <!DOCTYPE HTML>
 <head>
+  <link rel="stylesheet" href="main.css">
 </head>
 <body>
   <div id="header"></div>
-  <div id="infoMain"></div>
+  <div id="infoMain">
+    <div class="row">
+      <div id="countdownBar" class="progressBar">
+        <div class="progressBarInternal"></div>
+      </div>
+    </div>
+    <div class="row" id="countdownText">
+      <div class="timeElement">00 D</div>
+      <div class="timeElement">00 H</div>
+      <div class="timeElement">00 M</div>
+      <div class="timeElement">00 S</div>
+      <div class="timeElement">LEFT</div>
+    </div>
+    <div class="row">
+      <div id="publicGoodsShare" class="progressBar">
+        <div class="progressBarInternal"></div>
+      </div>
+    </div>
+    <div id="prelimResultsBarLabel" class="row">
+      <div id="prelimWinner">
+        <div class="valueSmall" style="margin-bottom:20px;">100,000</div>
+        <div class="idCardSmall">
+          <div id="mysteryProfile"><span>?</span></div>
+          <span style="margin: auto; margin-left: 10px;">Winner</span>
+        </div>
+      </div>
+      <div id="prelimPublicGood">
+        <div class="valueSmall" style="margin-bottom:20px; text-align: right;">10,000</div>
+        <div class="idCardSmall">
+          <div id="mysteryProfile"><span>?</span></div>
+          <span style="margin: auto; margin-right: 10px;">Public Good</span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
   <div id="preliminaryResults"></div>
   <div id="leaderBoard"></div>
 </body>
